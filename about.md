@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-comments: true /*add this line*/
+comments: true
 ---
 
 <p class="message">

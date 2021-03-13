@@ -1,0 +1,22 @@
+<!-- and guess where these are defined? Yup, you guessed it: the _config.yml file -->
+<ul>
+
+  <!-- GitHub link -->
+  <li><strong>Github</strong>: {{ site.author.github }}</li>
+
+  <!-- Twitter link -->
+  {% if site.author.twitter %}
+  <li><strong>Twitter</strong>: {{ site.author.twitter }}</li>
+  {% endif %}
+
+  <!-- Facebook link -->
+  {% if site.author.facebook %}
+  <li><strong>Facebook</strong>: {{ site.author.facebook }}</li>
+  {% endif %}
+
+  <!-- LinkedIn link -->
+  {% if site.author.linkedin %}
+  <li><strong>LinkedIn</strong>: {{ site.author.linkedin }}</li>
+  {% endif %}
+
+</ul>
